@@ -24,13 +24,13 @@ $ npm install -g ionic cordova
 
 > You may need to add "sudo" in front of these commands to install the utilities globally
 
-Once that's done, create your first Ionic app:
+Once that's done, create your first Ionic 2 app:
 
 ```bash
-$ ionic start cutePuppyPics
+$ ionic start cutePuppyPics tabs --v2
 ```
 
-Add --type ionic1 if you'd like to use Ionic 1. To run your app, `cd` into the directory that was created and then run the `ionic serve` command to test your app right in the browser!
+You can change the `tabs` option for the one of your preference. Here are the options available: `tabs`, `sidemenu`, `blank`, `super`, `tutorial`. To run your app, `cd` into the directory that was created and then run the `ionic serve` command to test your app right in the browser!
 
 ```bash
 $ cd cutePuppyPics
